@@ -1,0 +1,14 @@
+name: Hello CI. # This is a workflow file for GitHub Actions
+on:
+  push:
+    branches:
+      - main
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello !This is a GitHub Actions workflow file."
+
+
